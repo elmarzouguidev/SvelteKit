@@ -11,7 +11,7 @@
   </p>
   <ul>
     {#each data.posts as post}
-      <li><a href="/post/{post.id}">{post.title}</a></li>
+      <li><a href={`/post/${post.id}`}>{post.title}</a></li>
     {/each}
   </ul>
 </div>
